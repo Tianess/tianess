@@ -1,0 +1,347 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    text-decoration: none; 
+}
+
+:root{
+    --color_primario: #62A5A1;
+    --color_secundario: #ffffff;
+    --color_terciario: #393939;
+    --color_cuaternario: #000000;
+    --type: 'Open Sans', sans-serif;
+
+/*Colores corporativos con variables*/
+
+   --color_primero: #619BD3;
+   --color_segundo: #0D9DC1;
+   --color_tercero: #85BBE5;
+   --color_cuarto:  #94C5D4;
+   --color_quinto:  #9DDAE5;
+   --color_sexto:   #84D2E1;
+   --color_septimo: #7DCDC8;
+   --color_octavo:  #00B2BF;
+   --color_noveno:  #95d1f2;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+/*header*/
+
+header{
+    background-color: var(--color_primario);
+}
+
+.logo{
+    width: 15em;
+    padding: 1em 6em;
+    margin: 1em;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 1.3em;
+    font-size: 1.2em;
+    color: var(--color_secundario);
+}
+.menu a{
+    color: var(--color_secundario);
+    font-family: var(--type);
+    font-weight: 600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*secciones de marca*/
+
+.secciones_marca{
+    display: flex;
+    font-size: 1.2em;
+    align-content: center;
+    margin: auto;
+    margin: 3.7em 2.5em 3.7em 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 4.3em;
+
+}
+
+.secciones_marca .parte_1{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.logo_1{
+    width: 50em;
+    margin: auto;
+    margin-left: 1em;
+    padding-bottom: 1.8em;
+}
+
+
+
+
+/*colores corporativos*/
+
+.colores {
+    background-color: var(--color_terciario); 
+}
+
+.colores_de_marca .wd{
+     width: 20.5em;
+}
+
+
+.colores_de_marca{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colores .colores_de_marca{
+    width: 80%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    font-size: 1.2em;
+    flex-direction: column;
+    font-family: var(--type);
+}
+
+.colores .titulo{
+    font-size: 1em;
+    color: var(--color_secundario);
+    margin-bottom: 0.5em; 
+}
+.bloques{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    color: var(--color_secundario);
+    justify-content: center;
+}
+.bloques .color_1{
+    background-color: var(--color_primero);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_2{
+    background-color: var(--color_segundo);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_3{
+    background-color: var(--color_tercero);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_4{
+    background-color: var(--color_cuarto);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_5{
+    background-color: var(--color_quinto);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_6{
+    background-color: var(--color_sexto);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_7{
+    background-color: var(--color_septimo);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_8{
+    background-color:var(--color_octavo);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+.bloques .color_9{
+    background-color: var(--color_noveno);
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.8em 1em 0.8em 0.6em;
+}
+
+
+
+/*footer*/
+
+.footer{
+    background-color: var(--color_secundario);
+    padding: 2.8em;
+}
+.contenedor{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0.5em 1.1em 0.5em 1.1em;
+}
+.contenedor a{
+    color: var(--color_cuaternario);
+}
+.contenedor .contenido{
+    padding: 2.5em;
+}
+
+.contenido li{
+    list-style: none;
+}
+.web{
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    font-size: 1.8em;
+}
+
+.web a{
+    text-decoration: none;
+}
+.web li{
+    list-style: none;
+    padding: 1.5em 0.5em 1.5em 0.5em;
+}
+.web ul li{
+    display: inline;
+}
+
+.tema_2 ul li{
+    margin-bottom: 1.2em;
+}
+
+.tema_3 ul li{
+    margin-bottom: 1.2em;
+}
+
+.tema_4 ul li{
+    margin-bottom: 1.2em;
+}
+
+.tema_5 ul li{
+    margin-bottom: 1.2em;
+}
+
+
+
+h2{
+    font-size: 3.1em;
+    padding-bottom: 0.9em;
+    font-family: var(--type);
+    padding-bottom: 1em;
+    font-weight: 700;
+    color:var(--color_primario)
+}
+
+h3{
+    font-size: 2.1em;
+    font-weight: 600;
+    color: var(--color_primario);
+
+}
+
+h4{
+    font-size: 3.1em;
+    padding-bottom: 1.5em;
+    font-family: var(--type);
+    font-weight: 700;
+    color: var(--color_secundario);
+}
+
+h5{
+    font-size: 0.9em;
+    font-family: var(--type);
+    color: var(--color_primario);
+
+}
+
+p{
+    font-size: 1.2em;
+    font-family: var(--type);
+    font-weight: 300;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .encabezado{
+        flex-direction: column;
+    }
+
+    .encabezado .logo{
+        width: 80%;
+        margin: 1em 1.5em 0.2em 1em;
+        margin-left: 6em;
+    }
+
+    .menu{
+        margin-top: 1em ;
+        margin-bottom: 1em 
+    }
+
+    .menu ul li{ 
+        font-size: 1em;
+        padding-left: 6em;
+        display: block;
+    }
+
+   .secciones_marca{
+       flex-direction: column;
+       justify-content: center;
+       padding-bottom: 2em;
+       font-size: 0.8em;
+   }
+
+   .logo_1{
+       width: 12em;
+       margin: auto;
+       padding-top: 3em;
+   }
+    
+   .colores_de_marca .titulo{
+       font-size: 0.6em;
+       margin-left: 1em;
+   }
+
+   .footer{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+
+   .contenedor .contenido{
+       width: 74%;
+       align-items: center;
+   }
+
+   .contenedor{
+       flex-direction: column;
+   }
+   
+   .web{
+       display: inline;
+       font-size: 0.8em;
+       margin: 1em;
+   }
+}
